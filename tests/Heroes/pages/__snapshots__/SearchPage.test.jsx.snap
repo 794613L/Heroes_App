@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <SearchPage/> debe de mostrar correctamente con valores por defecto 1`] = `
+<div>
+  <div
+    class="container-fluid min-vh-100 d-flex align-items-center justify-content-center"
+  >
+    <div
+      class="container p-5 bg-white rounded shadow-lg"
+    >
+      <h1
+        class="text-center text-primary fw-bold"
+      >
+        Hero Search
+      </h1>
+      <hr />
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-4"
+        >
+          <div
+            class="bg-light p-4 rounded shadow"
+          >
+            <h4
+              class="text-center text-dark"
+            >
+              Search a Hero
+            </h4>
+            <hr
+              class="w-75 mx-auto"
+            />
+            <form
+              aria-label="form"
+            >
+              <input
+                autocomplete="off"
+                class="form-control mb-3"
+                name="searchText"
+                placeholder="Search a hero..."
+                type="text"
+                value=""
+              />
+              <button
+                class="btn btn-primary w-100"
+              >
+                🔍 Search
+              </button>
+            </form>
+          </div>
+        </div>
+        <div
+          class="col-md-8"
+        >
+          <h4
+            class="text-dark"
+          >
+            Results
+          </h4>
+          <hr />
+          <div
+            class="alert alert-primary animate__animated animate__pulse text-center fw-bold"
+          >
+            🧐 Search a hero to see results!
+          </div>
+          <div
+            aria-label="alert-danger"
+            class="alert alert-danger animate__animated animate__pulse text-center fw-bold"
+            style="display: none;"
+          >
+            ❌ No hero found with 
+            <b />
+          </div>
+          <div
+            class="row row-cols-1 row-cols-md-2 g-3"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
